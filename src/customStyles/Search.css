@@ -1,0 +1,10 @@
+.search-result {
+    margin-top: 40px;
+    display:flex; 
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.no-result-found {
+    text-align: center;
+}
