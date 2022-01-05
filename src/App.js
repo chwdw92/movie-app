@@ -4,7 +4,6 @@ import Header from "./components/commons/layouts/Header";
 import CustomBottomNavigation from "./components/commons/layouts/CustomBottomNavigation";
 import MovieSearch from "./components/pages/MovieSearch";
 import SeriesSearch from "./components/pages/SeriesSearch";
-import NotFound from "./components/pages/NotFound";
 import Loading from "./components/commons/layouts/Loading";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { useState } from "react";
