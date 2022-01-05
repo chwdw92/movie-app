@@ -25,7 +25,7 @@ const CustomBottomNavigation = () => {
       default:
         navigate("/");
     }
-  }, [navVal]);
+  }, [navVal]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <Box sx={{ ...styleBottomNavigContainer }}>
